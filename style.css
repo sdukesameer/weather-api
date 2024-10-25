@@ -1,3 +1,4 @@
+/* CSS */
 body {
     display: flex;
     justify-content: center;
@@ -6,7 +7,6 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    background-image: url('https://source.unsplash.com/1600x900/?landsacpe');
     font-size: 120%;
 }
 
@@ -20,7 +20,7 @@ body {
     margin: 1em;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,8 @@ input.search-bar {
     color: white;
     font-family: inherit;
     font-size: 105%;
-    width: calc( 100% - 10px);}
+    width: calc(100% - 10px);
+}
 
 button:hover {
     background: #7c7c7c6b;
@@ -58,7 +59,8 @@ h1.temp {
     margin: 0;
     margin-bottom: 0.4em;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
 }
@@ -74,11 +76,11 @@ h1.temp {
     position: relative;
 }
 
-.weather.loading::after{
+.weather.loading::after {
     visibility: visible;
     content: "Loading...";
     color: white;
     position: absolute;
-    top:0;
+    top: 0;
     left: 20px;
 }
