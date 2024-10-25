@@ -63,4 +63,4 @@ document
     });
 
 // Fetch initial weather for a default city
-weather.fetchWeather("Dhanbad");
+weather.fetchWeather("Kolkata");
